@@ -33,9 +33,9 @@ def download_images(image_urls, folder_path):
             print(f"Error downloading image {i+1}: {e}")
 
 # Configuration
-url = "https://www.obamalibrary.gov/galleries/president-barack-obama"
+url = "https://www.bing.com/images/search?q=get+biden+image&form=HDRSC3&first=1"
 headers = {"User-Agent": "Mozilla/5.0"}
-folder_path = "../input/barrack_obama"
+folder_path = "../input/biden"
 
 # Fetch image URLs
 image_urls = fetch_image_urls(url, headers)
